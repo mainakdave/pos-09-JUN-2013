@@ -1,0 +1,46 @@
+﻿html
+{
+    height: 100%;
+    background: url("../img/p6.png") !important; /* ricepaper2 */
+}
+body
+{
+    background: url("../img/p6.png") !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+#department label
+{
+    float: left;
+}
+input
+{
+    font-family: 'Open Sans', sans-serif !important;
+}
+input[type="text"]:focus
+{
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+}
+
+#alertBox
+{
+    position:absolute;
+    width:auto;
+    height:auto;
+    font-size:20px;
+}
+
+#submit, #btnCancel {margin-top:15px;}
+
+#department table, #section table, #family table, #brand table, #line table, #comment table, #format table, #itemWarning table, #item table, #itemRestaurant table, #itemPics table, #modifierMaster table, #modifierDetail table, #taxType table, #taxGroup table {margin-right: 0}
+#department td, #section td, #family td, #brand td, #line td, #comment td, #format td, #itemWarning td, #item td, #itemRestaurant td, #itemPics td, #modifierMaster td, #modifierDetail td, #taxType td, #taxGroup td {padding: 0px 10px;}
+#department table input, #section table input, #family table input, #brand table input, #line table input, #comment table input, #format table input, #itemWarning table input, #item table input, #itemRestaurant table input, #itemPics table input, #modifierMaster table input, #modifierDetail table input, #taxType table input, #taxGroup table input {width: 100%;}
+#department table select, #section table select, #family table select, #brand table select, #line table select, #comment table select, #format table select, #itemWarning table select, #item table select, #itemRestaurant table select, #itemPics table select, #modifierMaster table select, #modifierDetail table select, #taxType table select, #taxGroup table select {width: 100%;}
+
+#ctl00_MainContent_ImageUploader_imgPreview{max-width:200px; max-height:100px;}
+#ctl00_MainContent_ImageUploader_container0{max-width:200px;}
+
+
+#clearSearch{display:inline; font-size:9pt; font-style:italic; }
